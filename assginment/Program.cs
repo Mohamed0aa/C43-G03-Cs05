@@ -5,10 +5,23 @@
         #region q3
         //static int sumsub(int a,int b,out int c,out int d)
         //{
-          
+
         //    c= a + b;
         //    d = a - b;
         //    return 0;
+        //}
+        #endregion
+
+        #region q4
+        //static void sumDigit(int n)
+        //{
+        //    int sum = 0;
+        //    while (n != 0)
+        //    {
+        //        sum += (n % 10);
+        //        n /= 10;
+        //    }
+        //    Console.WriteLine(sum);
         //}
         #endregion
         static void Main(string[] args)
@@ -30,6 +43,15 @@
             //sumsub(n,m,out sum,out sub);
             //Console.WriteLine($"sum = {sum}\n sub = {sub}");
             #endregion
+
+            #region q4 : Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
+            //int n=int.Parse(Console.ReadLine());
+            //sumDigit(n);
+            #endregion
+
+            
+
+            
         }
     }
 }
