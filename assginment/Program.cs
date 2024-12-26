@@ -24,6 +24,17 @@
         //    Console.WriteLine(sum);
         //}
         #endregion
+
+        #region q5
+        //static bool isPrime(int n)
+        //{
+        //    for (int i = 2; i < n; i++)
+        //    {
+        //        if (n % 2 == 0) return false;
+        //    }
+        //    return true;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 : Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -49,9 +60,12 @@
             //sumDigit(n);
             #endregion
 
-            
+            #region q5 :
+            //int n=int.Parse(Console.ReadLine());
+            //Console.WriteLine(isPrime(n));
+            #endregion
 
-            
+
         }
     }
 }
