@@ -35,6 +35,16 @@
         //    return true;
         //}
         #endregion
+
+        #region q6
+        //static int min_max(int[] arr, out int c, out int d)
+        //{
+        //    Array.Sort(arr);
+        //    c =arr[0];
+        //    d = arr[arr.Length - 1];
+        //    return 0;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 : Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -63,6 +73,14 @@
             #region q5 :
             //int n=int.Parse(Console.ReadLine());
             //Console.WriteLine(isPrime(n));
+            #endregion
+
+            #region q6 : Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+            //    int[] arr = { 1, 2, 3 ,4,5,6};
+            //    int min, max;
+            //    min_max(arr, out min, out max);
+            //Console.WriteLine($"min = {min}  max = {max}");
+
             #endregion
 
 
