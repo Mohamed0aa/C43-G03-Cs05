@@ -49,10 +49,20 @@
         #region q7
         //static int fac(int n)
         //{
-            
+
         //    if (n <= 1) { return 1; }
         //    else
         //    return n*fac(n - 1);
+        //}
+        #endregion
+
+        #region q8
+        //static string ChangeChar( ref  int b,ref char c,ref string m)
+        //{
+        //    char[] qq = m.ToCharArray();
+        //    qq[b] = c;
+            
+        //    return new  string(qq);
         //}
         #endregion
         static void Main(string[] args)
@@ -100,7 +110,13 @@
             #endregion
 
 
-            
+            #region q8 : Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
+            //string q = "mohamed";
+            //int poss =int.Parse(Console.ReadLine());
+            //char c=char.Parse(Console.ReadLine());
+            //q=ChangeChar(ref poss,ref c,ref q);
+            //Console.WriteLine(q);
+            #endregion
 
         }
     }
