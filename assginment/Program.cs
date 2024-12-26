@@ -45,6 +45,16 @@
         //    return 0;
         //}
         #endregion
+
+        #region q7
+        //static int fac(int n)
+        //{
+            
+        //    if (n <= 1) { return 1; }
+        //    else
+        //    return n*fac(n - 1);
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 : Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -83,6 +93,14 @@
 
             #endregion
 
+
+            #region q7 : Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+            //int n=int.Parse(Console.ReadLine());
+            //Console.WriteLine(fac(n)); 
+            #endregion
+
+
+            
 
         }
     }
