@@ -37,10 +37,10 @@
         #endregion
 
         #region q6
-        //static int min_max(int[] arr, out int c, out int d)
+        //static int min_max(ref int[] arr, ref int c, ref int d)
         //{
         //    Array.Sort(arr);
-        //    c =arr[0];
+        //    c = arr[0];
         //    d = arr[arr.Length - 1];
         //    return 0;
         //}
@@ -76,9 +76,9 @@
             #endregion
 
             #region q6 : Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
-            //    int[] arr = { 1, 2, 3 ,4,5,6};
-            //    int min, max;
-            //    min_max(arr, out min, out max);
+            //int[] arr = { 1, 2, 3, 4, 5, 6 };
+            //int min=0, max=0;
+            //min_max(ref arr, ref min, ref max);
             //Console.WriteLine($"min = {min}  max = {max}");
 
             #endregion
